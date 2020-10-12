@@ -41,7 +41,6 @@ body {
 .aacont{
     background-color: rgb(210,18,66)
 }
-
 .aaW{
     position: absolute;
     left: 50%;
@@ -59,7 +58,6 @@ body {
     margin-bottom: 0px;
     transform: scale(0.8,1);
 }
-
 .aaText{
     padding-top: 190px;
     z-index: 2;
@@ -69,6 +67,16 @@ body {
     color: rgba(255,255,255);
     text-transform: uppercase;
     font-family: gothammedium
+  }
+  .aacontent{
+    width: 100%;
+    max-width: 1190px;
+    text-align: center;
+    margin: auto;
+    flex-wrap: wrap;
+  }
+  .aacol{
+      width :25%;
   }
 /* fin contenu  */
 /* responsive mobile */
