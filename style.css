@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'gothambold';
+    src: url('font/gotham-bold-webfont.woff2') format('woff2'),
+         url('font/gotham-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'gothammedium';
+    src: url('font/gothammedium-webfont.woff2') format('woff2'),
+         url('font/gothammedium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'gothambook';
+    src: url('font/gothambook-webfont.woff2') format('woff2'),
+         url('font/gothambook-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'robotoblack';
+    src: url('font/roboto-black-webfont.woff2') format('woff2'),
+         url('font/roboto-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+/* pour l'appeler font-family: 'Open Sans', sans-serif; */
