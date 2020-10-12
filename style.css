@@ -28,3 +28,12 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 /* pour l'appeler font-family: 'Open Sans', sans-serif; */
+
+/* responsive mobile */
+@media screen and (max-width : 414px){
+
+}
+/* responsive tablet  */
+@media screen and (max-width : 1024px){
+    
+}
