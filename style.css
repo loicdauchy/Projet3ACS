@@ -28,7 +28,25 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 /* pour l'appeler font-family: 'Open Sans', sans-serif; */
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    min-height: 100vh;
+    width: 100%;
+}
+/* contenu ici  */
 
+/* header */
+header {
+    background: url(media/header.png) fixed;
+}
+/* /header */
+
+
+
+/* fin contenu  */
 /* responsive mobile */
 @media screen and (max-width : 414px){
 
