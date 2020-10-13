@@ -343,18 +343,50 @@ section {
 }
 
 /* responsive tablet  */
-@media (min-width: 768px) and (max-width:1023px) {
-    .aacol {
-        width: 50%;
-        padding-top: 60px!important;
-    }
+@media screen and (max-width : 1024px){
+    
+}
 
-    .aah3 {
-        padding-top: 20px;
-    }
 
-    .aaText {
-        font-size: 25px;
-        padding-top: 210px;
-    }
+.ns4black{
+  background: black;
+  color: white;
+}
+.ns1section
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    align-items: center;
+}
+.ns2col
+{
+    width: 50%;
+}
+
+.ns4img
+{
+    width:100%;
+}
+.ns3worktext{
+    margin-left: 15px;
+    
+}
+
+.ns3text{
+    font-family: 'gothambook'; 
+}
+.ns3header
+{
+    font-family: 'gothammedium';
+}
+@media(max-width:770px)
+{
+    .ns2col
+{
+    width: 100%;
+}
+
+
 }
