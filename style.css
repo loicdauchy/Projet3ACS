@@ -324,28 +324,7 @@ section {
 }
 
 /* fin contenu  */
-/* responsive mobile */
-@media (max-width: 767px) {
-    .aacol {
-        width: 100%;
-        padding-top: 60px!important;
-    }
 
-    .aah3 {
-        padding-top: 20px;
-    }
-
-    .aaText {
-        font-size: 10px;
-        padding-top: 220px;
-    }
-
-}
-
-/* responsive tablet  */
-@media screen and (max-width : 1024px){
-    
-}
 
 
 .ns4black{
@@ -392,4 +371,32 @@ section {
     background: black;
     color:white;
 
+}
+/* responsive mobile */
+@media (max-width: 767px) {
+  .aacol {
+      width: 100%;
+      padding-top: 60px!important;
+  }
+
+  .aah3 {
+      padding-top: 20px;
+  }
+
+  .aaText {
+      font-size: 10px;
+      padding-top: 220px;
+  }
+  .ns2col {
+    width: 100%;
+  }
+  .ns4order {
+    order: 4;
+  }
+
+}
+
+/* responsive tablet  */
+@media screen and (max-width : 1024px){
+  
 }
