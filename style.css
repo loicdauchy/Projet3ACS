@@ -357,9 +357,11 @@ section {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-top: 30px;
     align-items: center;
+    padding: 0;
+    margin:0;
 }
+
 .ns2col
 {
     width: 50%;
@@ -381,12 +383,13 @@ section {
 {
     font-family: 'gothammedium';
 }
-@media(max-width:770px)
-{
-    .ns2col
-{
-    width: 100%;
+.ns4white{
+    background: white;
+    color:black;
 }
-
+.ns4black
+{
+    background: black;
+    color:white;
 
 }
