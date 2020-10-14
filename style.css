@@ -37,7 +37,10 @@
 @media screen and (max-width : 1024px){
     
 }
-
+.ns4black{
+  background: black;
+  color: white;
+}
 .ns1section
 {
     display: flex;
@@ -57,11 +60,6 @@
 {
     width:100%;
 }
-.ns3worktext{
-    margin-left: 15px;
-    
-}
-
 .ns3text{
     font-family: 'gothambook'; 
 }
@@ -79,3 +77,15 @@
     color:white;
 
 }
+
+.ns3worktext
+{
+  margin-left: 215px;
+  margin-right: 130px;
+}
+.ns3worktext2
+{
+  margin-left: 80px;
+  margin-right: 260px;
+}
+
