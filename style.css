@@ -196,6 +196,7 @@ section {
       /* float: left; */
       display: flex;
       align-items: center;
+      overflow: visible;
     }
     .headernav li a {
       padding: 20px 20px;
@@ -228,7 +229,29 @@ section {
     }
     #contentHome h1 {
       font-size: 7rem;
+      transition: 1s;
     }
+    #contentHome h1:hover {
+      letter-spacing: 10px;
+      transition: 0.5s;
+    }
+    li .lien:after {
+      content: '';
+      display: block;
+      margin: auto;
+      height: 3px;
+      width: 0;
+      background: transparent;
+      transition: .5s ease, background-color .5s ease;
+      position: relative;
+      top: 37px;
+      z-index: 50000;
+  }
+    li .lien:hover:after {
+      width: 100%;
+      background: red;
+      z-index: 500000;
+  }
   }
 
   @media screen and (max-width: 768px) {
@@ -415,18 +438,25 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 50px;
+  text-align: center;
 }
 .bgcontent {
-  padding-top: 0;
+  padding-top: 0px;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   margin: 0;
-  max-width: 1500px !important;
-  margin-left: 45px;
+  max-width: 1500px;
+  max-width: 100%;
+  width: 100%;
 }
 .bgcol {
   width: 20%;
   margin: 0px 20px ;
+}
+.bgcol img {
+  max-width: 100%;
 }
 /* /blog */
 /* responsive mobile */
