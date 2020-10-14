@@ -410,6 +410,8 @@ section {
     width: 100%!important;
     text-align: center;
   } 
+  .ftcontent{
+  flex-direction: column;}
 }
 
 /* responsive tablet  */
@@ -443,4 +445,14 @@ padding-right: 10px;
 .qatext p{
   font-family: gothambook;
   color: white;
+}
+.ftcontent{
+  min-height: 20vh;
+  font-family: gothambook;
+  background-color: black;
+  color: white;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
