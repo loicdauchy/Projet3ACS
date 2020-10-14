@@ -49,5 +49,48 @@ body {
 }
 /* responsive tablet  */
 @media screen and (max-width : 1024px){
+    
 
+
+.ns1section
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0;
+    margin:0;
+}
+
+.ns2col
+{
+    width: 50%;
+}
+
+.ns4img
+{
+    width:100%;
+}
+.ns3worktext{
+    margin-left: 15px;
+    
+}
+
+.ns3text{
+    font-family: 'gothambook'; 
+}
+.ns3header
+{
+    font-family: 'gothammedium';
+}
+.ns4white{
+    background: white;
+    color:black;
+}
+.ns4black
+{
+    background: black;
+    color:white;
+
+}
 }
