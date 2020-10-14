@@ -60,6 +60,11 @@
 {
     width:100%;
 }
+.ns3worktext{
+    margin-left: 15px;
+    
+}
+
 .ns3text{
     font-family: 'gothambook'; 
 }
@@ -68,7 +73,7 @@
     font-family: 'gothammedium';
 }
 .ns4white{
-    background: white;
+    background: rgb(243, 243, 243);
     color:black;
 }
 .ns4black
@@ -89,3 +94,29 @@
   margin-right: 260px;
 }
 
+
+@media (max-width: 767px) {
+  .ns2col {
+    width: 100%;
+  }
+  .ns4order {
+    order: 4;
+  }
+  .ns3worktext
+  {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .ns3worktext2
+  {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  
+
+}
+
+/* responsive tablet  */
+@media screen and (max-width : 1024px){
+  
+}
