@@ -399,7 +399,17 @@ section {
     order: 4;
   }
   .qacol{
-    width: 100%;}
+    width: 100%!important;
+    padding-top: 25px;
+      }
+  .qalogo{
+    width: 100%!important;
+    text-align: center;
+    }
+    .qatext{
+    width: 100%!important;
+    text-align: center;
+  } 
 }
 
 /* responsive tablet  */
@@ -410,22 +420,24 @@ section {
   background-color: rgb(210, 18, 66);
   min-height: 40vh;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
 .qacol{
-  width: 40%;
+  width: 35%;
   display:flex;
   align-items: center;
+  flex-wrap: wrap;
   padding-right: 10px;
   padding-left: 10px;
 }
 .qalogo{
 width: 20%;
+
 }
 .qatext{
-width: 80%;
-padding-left: 10px;
+width: 75%;
 padding-right: 10px;
 }
 .qatext p{
