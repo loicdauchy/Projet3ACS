@@ -33,6 +33,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 /* pour l'appeler font-family: 'Open Sans', sans-serif; */
+html {
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+}
 body {
     margin: 0;
     padding: 0;
@@ -222,10 +226,6 @@ section {
       align-items: center;
       margin-left: 20px;
     }
-    ul.menu li a:hover {
-        border-bottom: 2px solid red;
-        padding-bottom: 50px;
-    }
     #contentHome h1 {
       font-size: 7rem;
     }
@@ -328,10 +328,10 @@ section {
     margin-bottom: 0px;
 }
 
-/* fin contenu  */
+/* /section about Agency*/
 
 
-
+/* news */
 .ns4black{
   background: black;
   color: white;
@@ -377,6 +377,58 @@ section {
     color:white;
 
 }
+/* /news */
+
+/* blog */
+#blog {
+  background-color: white;
+}
+.bgb {
+  color:  rgba(210, 18, 66,0.8);
+  z-index: 1 !important;
+}
+.bgText {
+  color: black;
+  font-size: 17px;
+  font-weight: normal;
+  z-index: 2 !important;
+  padding-top: 215px;
+  font-family: 'gothammedium';
+}
+.bgText h2 {
+  z-index: 10;
+}
+.bgh3 {
+  color:  rgb(210, 18, 66);
+}
+.bgp {
+  color: black;
+  font-size: 0.9rem;
+}
+.bgcont1 {
+  min-height: 50vh;
+}
+.bgh4{
+  height: 25vh;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bgcontent {
+  padding-top: 0;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  max-width: 1500px !important;
+  margin-left: 45px;
+}
+.bgcol {
+  width: 20%;
+  margin: 0px 20px ;
+}
+/* /blog */
 /* responsive mobile */
 @media (max-width: 767px) {
   .aacol {
@@ -398,6 +450,18 @@ section {
   .ns4order {
     order: 4;
   }
+  .bgcontent {
+    margin-left: 0;
+  }
+  .bgh4 {
+    font-size: 1rem;
+    margin-top: 20px;
+  }
+  .bgText {
+    font-size: 18px;
+    padding-top: 210px;
+  }
+
 
 }
 
