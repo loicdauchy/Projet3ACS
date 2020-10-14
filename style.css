@@ -279,7 +279,13 @@ section {
     margin-top: 0px;
     margin-bottom: 0px;
     transform: scale(0.8, 1);
+    transition: all 0.5s linear;
+    cursor: pointer;
 }
+
+.aah1W:hover {
+  transform: scale(0.9, 1.1);
+  transition: all 0.5s linear;}
 
 .aaText {
     padding-top: 190px;
