@@ -261,12 +261,6 @@ section {
 .aacont {
     background-color: rgb(210, 18, 66)
 }
-<<<<<<< HEAD
-/* responsive tablet  */
-@media screen and (max-width : 1024px){
-    
-
-=======
 
 .aaW {
     position: absolute;
@@ -280,7 +274,6 @@ section {
     font-family: gothambold;
     z-index: 1;
 }
->>>>>>> origin/préprod
 
 .aah1W {
     margin-top: 0px;
@@ -384,8 +377,6 @@ section {
     color:white;
 
 }
-<<<<<<< HEAD
-=======
 /* responsive mobile */
 @media (max-width: 767px) {
   .aacol {
@@ -407,11 +398,37 @@ section {
   .ns4order {
     order: 4;
   }
-
+  .qacol{
+    width: 100%;}
 }
 
 /* responsive tablet  */
 @media screen and (max-width : 1024px){
-  
->>>>>>> origin/préprod
+}
+
+.qacontainer{
+  background-color: rgb(210, 18, 66);
+  min-height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.qacol{
+  width: 40%;
+  display:flex;
+  align-items: center;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.qalogo{
+width: 20%;
+}
+.qatext{
+width: 80%;
+padding-left: 10px;
+padding-right: 10px;
+}
+.qatext p{
+  font-family: gothambook;
+  color: white;
 }
