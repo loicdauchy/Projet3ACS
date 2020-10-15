@@ -361,9 +361,9 @@ section {
 .ns1section
 {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
     padding: 0;
     margin:0;
 }
@@ -371,10 +371,22 @@ section {
 .ns2col
 {
     width: 50%;
+    
+}
+.ns2col1 {
+  background: url(media/news2.png) !important;
+  width: 50%;
+  min-height: 50vh !important;
+}
+.ns2col2 {
+  background: url(media/news1.png) !important;
+  width: 50%;
+  min-height: 50vh !important;
 }
 
 .ns4img
-{
+{ 
+    min-height: 490px !important;
     width:100%;
 }
 .ns3worktext{
@@ -383,14 +395,17 @@ section {
 }
 
 .ns3text{
-    font-family: 'gothambook'; 
+    font-family: 'gothambook';
+    padding: 20px 50px 0px 50px;
+    width: 65%; 
 }
 .ns3header
 {
     font-family: 'gothammedium';
+    padding-left: 50px;
 }
 .ns4white{
-    background: white;
+    background: rgb(243, 243, 243);
     color:black;
 }
 .ns4black
@@ -473,6 +488,26 @@ section {
       font-size: 10px;
       padding-top: 220px;
   }
+
+.ns3worktext
+{
+  margin-left: 215px;
+  margin-right: 130px;
+}
+.ns3worktext2
+{
+  margin-left: 80px;
+  margin-right: 260px;
+}
+.ns2col1{
+  width: 100%;
+}
+.ns2col2 {
+  width: 100%;
+}
+
+
+@media (max-width: 767px) {
   .ns2col {
     width: 100%;
   }
@@ -491,10 +526,21 @@ section {
     padding-top: 210px;
   }
 
+  .ns3worktext
+  {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .ns3worktext2
+  {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  
 
 }
 
 /* responsive tablet  */
-@media screen and (max-width : 1024px){
+/* @media screen and (max-width : 1024px){
   
-}
+} */ }
