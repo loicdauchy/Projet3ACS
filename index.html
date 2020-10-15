@@ -1,36 +1,204 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ACS Creative Digital Agency</title>
-    <meta name="description" content=" ">
+    <meta name="description" content="Projet en groupe d'intégration d'une interface en full CSS">
     <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
 </head>
+
 <body>
-   <header class="container">
-    
-   </header>
-   <main>
+    <header id="home">
+        <nav class="headernav">
+            <a href="#" class="logo"><img src="media/logo.png" alt=""></a>
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
+            <ul class="menu">
+                <li> <a class="lien" href="#home"> Home </a></li>
+                <li> <a class="lien" href="#pages"> Pages </a></li>
+                <li> <a class="lien" href="#features"> Features </a></li>
+                <li> <a class="lien" href="#extensions"> Extensions </a></li>
+                <li> <a class="lien" href="#tutorials"> Tutorials </a></li>
+                <li> <a class="lien" href="#contact"> Contact us </a></li>
+                <div class="decale">
+                    <li><a class="reseaux " href="#"><img src="media/facebook.png" alt=""></a></li>
+                    <li><a class="reseaux" href="#"><img src="media/twitter.png" alt=""></a></li>
+                    <li><a class="reseaux" href="#"><img src="media/skype.png" alt=""></a></li>
+                    <li><a class="reseaux" href="#"><img src="media/linkedin.png" alt=""></a></li>
+                </div>
+            </ul>
+        </nav>
+        <div id="contentHome">
+            <h1>Creatives</h1>
+            <div id="schroll">
+                <p class="schroll">scroll down</p>
+                <a href="#aboutAgency"><img src="media/scrolldown.png" alt=""></a>
+            </div>
+        </div>
+    </header>
+    <main>
         <!-- class = aa1 aa2 aa3 ect... -->
-       <section id="aboutAgency" class="container">
+        <section id="aboutAgency" class="container aacont">
+            <div>
+                <div class="aaW">
+                    <h1 class="aah1W">W</h1>
+                </div>
+                <div class="aaText">
+                    <h2>We are an awesome agency</h2>
+                </div>
+            </div>
+            <div class="aacontent">
+                <div class="aacol">
+                    <img src="media/writeicon.png" alt="icon write">
+                    <h3 class="aah3">feature one</h3>
+                    <p class="aap">Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue
+                        laoreet rutrum
+                        faucibus dolor </p>
+                </div>
+                <div class="aacol">
+                    <img src="media/writeicon.png" alt="icon write">
+                    <h3 class="aah3">feature two</h3>
+                    <p class="aap">Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue
+                        laoreet rutrum
+                        faucibus dolor </p>
+                </div>
+                <div class="aacol">
+                    <img src="media/Searchicon.png" alt="icon search">
+                    <h3 class="aah3">feature three</h3>
+                    <p class="aap">Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue
+                        laoreet rutrum
+                        faucibus dolor </p>
+                </div>
+                <div class="aacol">
+                    <img src="media/saysicon.png" alt="icon says">
+                    <h3 class="aah3">feature four</h3>
+                    <p class="aap">Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue
+                        laoreet rutrum
+                        faucibus dolor </p>
+                </div>
 
-       </section>
-       <!-- class = ns1 ns2 ns3 ect...  -->
-       <section id="news" class="container">
 
-       </section>
-       <!-- class = bg1 bg2 bg3 ect... -->
-       <section id="blog" class="container">
 
-       </section>
-       <!-- class = qa1 qa2 qa3 ect... -->
-       <section id="quickAction">
+        </section>
+        <!-- class = ns1 ns2 ns3 ect...  -->
+        <section id="news">
+            <div class="ns1section ns4black" style="min-height:50%;">
+                <div class="ns2col">
+                    <p class="ns3worktext ns3text">Oct 12, 2020 | In Culture</p>
+                    <h2 class="ns3worktext ns3header">AKITA INU DOG</h2>
+                    <p class="ns3worktext ns3text">Cum sociis natoque penatibus et magnis dis parturient montes,
+                        nascetur ridiculus mus. Lorem
+                        ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Vivamus sagittis
+                        lacus vel augue laoreet rutrum faucibus dolor auctor. </p>
 
-       </section>
-   </main>
-   <footer>
+                    <p class="ns3worktext ns3text"> Donec ullamcorper nulla non metus auctor fringilla. Lorem ipsum
+                        dolor sit amet, consectetur
+                        adipiscing elit. Sed posuere consectetur </p>
+                </div>
+                <div class="ns2col1">
+                    
+                </div>
+            </div>
+            <div class="ns1section ns4white">
+                <div class="ns2col2 ns4order">                  
+                </div>
+                <div class="ns2col">
+                    <p class="ns3worktext2 ns3text">Oct 12, 2020 | In Culture</p>
+                    <h2 class="ns3worktext2 ns3header">AKITA INU DOG</h2>
+                    <p class="ns3worktext2 ns3text">Cum sociis natoque penatibus et magnis dis parturient montes,
+                        nascetur ridiculus mus. Lorem
+                        ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Vivamus sagittis
+                        lacus vel augue laoreet rutrum faucibus dolor auctor. </p>
 
-   </footer> 
+                    <p class="ns3worktext2 ns3text"> Donec ullamcorper nulla non metus auctor fringilla. Lorem ipsum
+                        dolor sit amet, consectetur
+                        adipiscing elit. Sed posuere consectetur </p>
+                </div>
+            </div>
+        </section>
+        <!-- class = bg1 bg2 bg3 ect... -->
+        <section id="blog" class="container aacont bgcont">
+            <div class="bgcont1">
+                <div class="aaW bgb">
+                    <h1 class="aah1W">B</h1>
+                </div>
+                <div class="aaText bgText">
+                    <h2>LET'S BLOG</h2>
+                </div>
+                <div class="bgh4">
+                    <h4>We love clean design and advanced digital solutions.</h4>
+                </div>
+            </div>
+            <div class="aacontent bgcontent">
+                <div class="aacol bgcol">
+                    <img src="media/blog1.png" alt="icon write">
+                    <h3 class="aah3 bgh3">FRESH SUMMER CAMPAIGN</h3>
+                    <p class="aap bgp">Cum sociis natoque penatibus et magnis<br> dis parturient montes, nascetur
+                        ridiculus<br> mus.
+                        Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit. Donec sed<br> odio dui. Vivamus
+                        sagittis
+                        lacus vel augue<br> laoreet rutrum faucibus dolor auctor. </p>
+                </div>
+                <div class="aacol bgcol">
+                    <img src="media/blog2.png" alt="icon write">
+                    <h3 class="aah3 bgh3">FRESH SUMMER CAMPAIGN</h3>
+                    <p class="aap bgp">Cum sociis natoque penatibus et magnis<br> dis parturient montes, nascetur
+                        ridiculus<br> mus.
+                        Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit. Donec sed<br> odio dui. Vivamus
+                        sagittis
+                        lacus vel augue<br> laoreet rutrum faucibus dolor auctor. </p>
+                </div>
+                <div class="aacol bgcol">
+                    <img src="media/blog3.png" alt="icon search">
+                    <h3 class="aah3 bgh3">FRESH SUMMER CAMPAIGN</h3>
+                    <p class="aap bgp">Cum sociis natoque penatibus et magnis<br> dis parturient montes, nascetur
+                        ridiculus<br> mus.
+                        Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit. Donec sed<br> odio dui. Vivamus
+                        sagittis
+                        lacus vel augue<br> laoreet rutrum faucibus dolor auctor. </p>
+                </div>
+                <div class="aacol bgcol">
+                    <img src="media/blog1.png" alt="icon says">
+                    <h3 class="aah3 bgh3">FRESH SUMMER CAMPAIGN</h3>
+                    <p class="aap bgp">Cum sociis natoque penatibus et magnis<br> dis parturient montes, nascetur
+                        ridiculus<br> mus.
+                        Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit. Donec sed<br> odio dui. Vivamus
+                        sagittis
+                        lacus vel augue<br> laoreet rutrum faucibus dolor auctor. </p>
+                </div>
+        </section>
+        <!-- class = qa1 qa2 qa3 ect... -->
+        <section id="quickAction" class="container qacontainer"> 
+            <div class="qacol">
+                <div class="qalogo">
+                    <img src="media/Write_copy_2.png" alt="writeicon" title="writeicon">
+                </div>
+                <div class="qatext">
+                    <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum
+                        dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Vivamus sagittis lacus vel
+                        augue laoreet rutrum faucibus dolor auctor.</p>
+                </div>
+            </div>
+            <div class="qacol">
+                <div class="qalogo">
+                    <img src="media/Write_copy_2.png" alt="writeicon" title="writeicon">
+                </div>
+                <div class="qatext">
+                    <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum
+                        dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Vivamus sagittis lacus vel
+                        augue laoreet rutrum faucibus dolor auctor.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="ftcontent">
+        <p>© 2020 ACS LONS – All Right Reserved </p>
+        <p>Designed by ACSL</p>
+    </footer>
 </body>
+
 </html>
