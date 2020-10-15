@@ -524,6 +524,58 @@ section {
 }
 
 /* /blog */
+
+/* Quick Agencie */
+
+.qacontainer {
+  background-color: rgb(210, 18, 66);
+  min-height: 40vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.qacol {
+  width: 35%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.qalogo {
+  width: 20%;
+
+}
+
+.qatext {
+  width: 75%;
+  padding-right: 10px;
+}
+
+.qatext p {
+  font-family: gothambook;
+  color: white;
+}
+
+/* /Quick Agencie */
+
+/* footer */
+
+.ftcontent {
+  min-height: 20vh;
+  font-family: gothambook;
+  background-color: black;
+  color: white;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* /footer */
 /* responsive mobile */
 @media (max-width: 767px) {
   .aacol {
@@ -611,47 +663,21 @@ section {
   }
 }
 
-
-.qacontainer {
-  background-color: rgb(210, 18, 66);
-  min-height: 40vh;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-}
-
-.qacol {
-  width: 35%;
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  padding-right: 10px;
-  padding-left: 10px;
-}
-
-.qalogo {
-  width: 20%;
+@media (min-width: 768px) and (max-width: 1100px) {
+  .aacol {
+    width: 40%;
+    padding-bottom: 50px;
+  }
+  h3.aah3 {
+    padding-top: 30px;
+  }
+  .qacol {
+    width: 100% !important;
+    padding-top: 25px;
+  }
+  .qalogo {
+    text-align: center;
+  }
 
 }
 
-.qatext {
-  width: 75%;
-  padding-right: 10px;
-}
-
-.qatext p {
-  font-family: gothambook;
-  color: white;
-}
-
-.ftcontent {
-  min-height: 20vh;
-  font-family: gothambook;
-  background-color: black;
-  color: white;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
