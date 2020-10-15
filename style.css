@@ -186,6 +186,13 @@ body {
     justify-content: center;
     align-items: center;
 }
+#schroll a img {
+  transition: 0.7s;
+}
+#schroll a img:hover {
+  transform: rotate(180deg);
+  transition: 0.3s;
+}
 section {
   min-height: 100vh;
 }
@@ -396,13 +403,13 @@ section {
 
 .ns3text{
     font-family: 'gothambook';
-    padding: 20px 50px 0px 50px;
+    padding: 20px 70px 0px 70px;
     width: 65%; 
 }
 .ns3header
 {
     font-family: 'gothammedium';
-    padding-left: 50px;
+    padding-left: 70px;
 }
 .ns4white{
     background: rgb(243, 243, 243);
@@ -507,7 +514,7 @@ section {
 }
 
 
-@media (max-width: 767px) {
+/* @media (max-width: 767px) { */
   .ns2col {
     width: 100%;
   }
@@ -540,7 +547,7 @@ section {
 
 }
 
-/* responsive tablet  */
-/* @media screen and (max-width : 1024px){
+/* responsive tablet   */
+@media screen and (max-width : 1024px){
   
-} */ }
+} 
